@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="arrow-down" viewBox="0 0 48 48">
+  <defs>
+    <style>.cls-1{fill:#c39d41;}</style>
+  </defs>
+  <path id="Tracciato_940" data-name="Tracciato 940" class="cls-1" d="M16.64,33.51a4.08,4.08,0,1,0-4.07-4.08h0A4.08,4.08,0,0,0,16.64,33.51Zm-5-4.08a5,5,0,1,1,5,5h0a5,5,0,0,1-5-5Z"></path>
+  <path id="Tracciato_941" data-name="Tracciato 941" class="cls-1" d="M31.36,33.55a4.08,4.08,0,1,0-4.08-4.07,4.07,4.07,0,0,0,4.08,4.07Zm-5-4.07a5,5,0,1,1,5,5,5,5,0,0,1-5-5Z"></path>
+  <path id="Tracciato_942" data-name="Tracciato 942" class="cls-1" d="M26.37,17.28a1.88,1.88,0,1,0-1.88-1.88h0a1.88,1.88,0,0,0,1.88,1.88Z"></path>
+  <path id="Tracciato_943" data-name="Tracciato 943" class="cls-1" d="M26.45,21.84a.9.9,0,0,1-.79-.47l-1.22-1.91L21.92,22l2.34,1.23a1.26,1.26,0,0,1,.82,1.3v5.29a1.09,1.09,0,0,1-2.17,0V25.54l-4.05-2.25a1.57,1.57,0,0,1-.81-1.37,1.55,1.55,0,0,1,.41-1.06l4-4a1.46,1.46,0,0,1,1.18-.47,1.62,1.62,0,0,1,1.27.73L27,20.38h3.13a.74.74,0,1,1,0,1.47Z"></path>
+</svg>

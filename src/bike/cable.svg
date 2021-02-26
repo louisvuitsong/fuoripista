@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="arrow-down" viewBox="0 0 48 48">
+  <defs>
+    <style>.cls-1{fill:#c39d41;}</style>
+  </defs>
+  <g id="noun_electric_socket_2347201" data-name="noun electric socket 2347201">
+    <g id="Layer_2" data-name="Layer 2">
+      <path id="Tracciato_995" data-name="Tracciato 995" class="cls-1" d="M29.65,24a5.91,5.91,0,0,1-5.91,5.9h-5.9V18.1h5.9A5.91,5.91,0,0,1,29.65,24ZM19.32,28.43h4.42a4.43,4.43,0,1,0,0-8.86H19.32Z"></path>
+      <rect id="Rettangolo_139" data-name="Rettangolo 139" class="cls-1" x="11.2" y="26.21" width="7.38" height="1.48"></rect>
+      <rect id="Rettangolo_140" data-name="Rettangolo 140" class="cls-1" x="11.2" y="20.31" width="7.38" height="1.48"></rect>
+      <circle id="Ellisse_116" data-name="Ellisse 116" class="cls-1" cx="26.05" cy="24" r="1.48"></circle>
+    </g>
+  </g>
+  <rect class="cls-1" x="29.65" y="23.36" width="7.15" height="1.29"></rect>
+</svg>

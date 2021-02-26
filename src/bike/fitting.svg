@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <path d="m13.28 8.68h7.15v30.13h-7.15z" fill="none"></path>
+  <path d="m20.43 38.81h-7.15v-30.13h7.15zm-6.13-1h5.1v-28.11h-5.1z" fill="#c39d41"></path>
+  <path d="m13.28 31.66h20.94v7.15h-20.94z" fill="none"></path>
+  <g fill="#c39d41">
+    <path d="m34.21 38.81h-20.93v-7.15h20.93zm-19.91-1h18.89v-5.13h-18.89z"></path>
+    <path d="m12.23 34.54h9.6v1.02h-9.6z" transform="matrix(.70698336 -.70723018 .70723018 .70698336 -19.8 22.32)"></path>
+    <path d="m13.53 14.04h2.81v1.02h-2.81z"></path>
+    <path d="m13.53 20.17h2.81v1.02h-2.81z"></path>
+    <path d="m13.53 25.79h2.81v1.02h-2.81z"></path>
+    <path d="m13.53 31.92h2.81v1.02h-2.81z"></path>
+    <path d="m13.53 10.98h3.71v1.02h-3.71z"></path>
+    <path d="m13.53 17.11h3.71v1.02h-3.71z"></path>
+    <path d="m13.53 23.24h3.71v1.02h-3.71z"></path>
+    <path d="m13.53 28.85h3.71v1.02h-3.71z"></path>
+    <path d="m18.85 35.95h1.02v2.82h-1.02z"></path>
+    <path d="m24.98 35.95h1.02v2.82h-1.02z"></path>
+    <path d="m21.91 35.05h1.02v3.71h-1.02z"></path>
+    <path d="m28.04 35.05h1.02v3.71h-1.02z"></path>
+    <path d="m30.6 35.95h1.02v2.82h-1.02z"></path>
+    <path d="m24 10.52h5.15v1.02h-5.15z"></path>
+    <path d="m24 28.29h5.15v1.02h-5.15z"></path>
+    <path d="m27.09 28.39h-1v-2.05h1zm0-5.11h-1v-2h1zm0-5.11h-1v-2h1zm0-5.1h-1v-2.07h1z"></path>
+  </g>
+</svg>

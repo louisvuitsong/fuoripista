@@ -1,0 +1,1778 @@
+@import url("common.css");
+.head-top {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.head-top > a {
+  z-index: 4;
+  position: relative;
+  color: #000;
+  font-size: 40px;
+}
+
+.head-top .menu {
+  position: relative;
+  z-index: 3;
+}
+
+.head-top .menu a:hover {
+  color: #c39d42;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.head-top .menu .menu-btn {
+  z-index: 3;
+  width: 136px;
+  height: 52px;
+  border: 1px solid #777;
+  border-radius: 27px;
+  padding: 0 20px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.head-top .menu .menu-btn p {
+  color: #000;
+  font-size: 1.2em;
+}
+
+.head-top .menu .menu-btn .menu-trigger {
+  width: 12px;
+  height: 12px;
+}
+
+.head-top .menu .menu-btn .menu-trigger span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 3px;
+}
+
+.head-top .menu .menu-btn .menu-trigger span:nth-of-type(3) {
+  margin: 0;
+}
+
+.head-top .menu .menu-btn:hover {
+  border: 1px solid #ddd;
+}
+
+.head-top .menu .menu-btn .menu-trigger.active span {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.head-top .menu .menu-btn .menu-trigger.active span:nth-of-type(1) {
+  -webkit-transform: translateY(2px) rotate(45deg);
+          transform: translateY(2px) rotate(45deg);
+}
+
+.head-top .menu .menu-btn .menu-trigger.active span:nth-of-type(2) {
+  display: none;
+}
+
+.head-top .menu .menu-btn .menu-trigger.active span:nth-of-type(3) {
+  -webkit-transform: translateY(-2.5px) rotate(-45deg);
+          transform: translateY(-2.5px) rotate(-45deg);
+}
+
+.head-top .menu .menu-nav {
+  position: fixed;
+  -webkit-transition: .5s;
+  transition: .5s;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  padding: 0 40px;
+  background: #000;
+  z-index: -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.head-top .menu .menu-nav nav {
+  width: 50%;
+}
+
+.head-top .menu .menu-nav .nav-product {
+  padding: 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.head-top .menu .menu-nav .nav-product ul li {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.head-top .menu .menu-nav .nav-product ul li > a {
+  font-size: 200px;
+  line-height: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.head-top .menu .menu-nav .nav-product ul li div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
+}
+
+.head-top .menu .menu-nav .nav-product ul li div a::after {
+  content: '';
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-color: currentColor;
+  -webkit-mask-image: url("../src/main/newletter-arrow.svg");
+          mask-image: url("../src/main/newletter-arrow.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}
+
+.head-top .menu .menu-nav .nav-product ul li:hover .nav-btn {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.head-top .menu .menu-nav .nav-product ul li p {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 50%;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+.head-top .menu .menu-nav .nav-product ul li:hover p {
+  right: 0;
+}
+
+.head-top .menu .menu-nav .nav-moreinfo {
+  padding: 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.head-top .menu .menu-nav .nav-moreinfo > a {
+  font-size: 100px;
+}
+
+.head-top .menu .menu-nav .nav-moreinfo nav {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.head-top .menu .menu-nav .nav-moreinfo nav a {
+  width: 50%;
+  font-size: 18px;
+  font-family: "Grot10";
+}
+
+.head-top .menu .menu-nav.active {
+  top: 0;
+}
+
+.head-bottom {
+  z-index: 3;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 50px;
+}
+
+.head-bottom .indicater {
+  position: fixed;
+  bottom: 50px;
+  left: 40px;
+}
+
+.head-bottom .indicater span {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  opacity: 0.2;
+  margin: 3px 8px;
+}
+
+.head-bottom .info {
+  background: #fff;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #777;
+  border-radius: 25px;
+  right: 40px;
+  bottom: 40px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.head-bottom .info p {
+  font-size: 1.5em;
+}
+
+.head-bottom .info:hover {
+  width: 136px;
+}
+
+.section {
+  width: 100vw;
+  height: 98vh;
+  position: relative;
+}
+
+.section > div {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+
+.section .sec01 {
+  width: 22.5%;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec01 p {
+  width: 40vh;
+}
+
+.section .sec01 p img {
+  width: 80vh;
+  height: 80vh;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.section .sec02 {
+  width: 55%;
+  left: 22.5%;
+  padding-left: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section .sec02 > p {
+  width: 100%;
+  font-size: 30vh;
+  line-height: 0.85;
+}
+
+.section .sec02 > p:nth-of-type(2) {
+  margin-left: 10%;
+}
+
+.section .sec02 > p:nth-of-type(3) {
+  white-space: nowrap;
+}
+
+.section .sec02 > p:nth-of-type(3)::after {
+  content: 'a piece of art';
+  display: inline-block;
+  font-family: "Hijrnotes";
+  color: #c39d42;
+  vertical-align: middle;
+  font-size: 35px;
+}
+
+.section .sec03 {
+  width: 40%;
+  left: 81%;
+}
+
+.section .sec03 p {
+  height: 80vh;
+}
+
+.section .sec03 p img {
+  height: 80vh;
+}
+
+.section .sec04 {
+  width: 35%;
+  left: 121%;
+  padding: 0 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: pre-line;
+}
+
+.section .sec04 p {
+  font-size: 46px;
+}
+
+.section .sec05 {
+  width: 85%;
+  left: 156%;
+  background-color: #f4f4f4;
+  overflow: hidden;
+  position: relative;
+}
+
+.section .sec05 .sec05_1 {
+  top: 0;
+}
+
+.section .sec05 .sec05_2 {
+  top: 100%;
+}
+
+.section .sec05 .sec05_3 {
+  top: 100%;
+}
+
+.section .sec05 .sec05_4 {
+  top: 100%;
+}
+
+.section .sec05 > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section .sec05 > div .sec05_btn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.section .sec05 > div .sec05_btn div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.section .sec05 > div .sec05_btn div a {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.section .sec05 > div div:nth-of-type(1) {
+  width: 30%;
+  padding-top: 8%;
+  padding-left: 80px;
+}
+
+.section .sec05 > div div:nth-of-type(1) p:nth-of-type(1) {
+  font-size: 5vh;
+  line-height: 1.1;
+  margin-bottom: .5em;
+}
+
+.section .sec05 > div div:nth-of-type(1) p:nth-of-type(4) {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #d3d3d3;
+  border-width: 1px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec05 > div div:nth-of-type(1) p:nth-of-type(5) {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #d3d3d3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec05 > div div:nth-of-type(1):nth-of-type(2) {
+  width: 15%;
+}
+
+.section .sec06 {
+  width: 100%;
+  left: 241%;
+}
+
+.section .sec06 figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.section .sec06 figure > p {
+  width: 100%;
+  height: 100%;
+}
+
+.section .sec06 figure > p img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section .sec06 figure figcaption {
+  position: absolute;
+  bottom: 15%;
+  left: 12%;
+}
+
+.section .sec06 figure figcaption span {
+  color: #fff;
+  font-size: 150px;
+  line-height: 1;
+}
+
+.section .sec06 figure figcaption span:nth-of-type(1) {
+  position: absolute;
+  left: -10%;
+  bottom: 50%;
+  font-size: 100px;
+}
+
+.section .sec07 {
+  width: 100%;
+  left: 341%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .sec07 .sec07_1 {
+  width: 30%;
+  padding: 50px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: pre-line;
+}
+
+.section .sec07 .sec07_1 p {
+  font-size: 5vh;
+  line-height: 1.1;
+}
+
+.section .sec07 .sec07_1 p:nth-of-type(1) {
+  color: #c39d42;
+}
+
+.section .sec07 .sec07_1 p:nth-of-type(3) {
+  font-family: "Grot10";
+  font-size: 16px;
+}
+
+.section .sec07 .sec07_2 {
+  width: 40%;
+  padding: 0 80px;
+}
+
+.section .sec07 .sec07_2 figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec07 .sec07_2 figure figcaption {
+  position: absolute;
+  left: -40px;
+  top: 15%;
+}
+
+.section .sec07 .sec07_2 figure figcaption p {
+  color: #ddd;
+  font-size: 15vh;
+  line-height: 1;
+  mix-blend-mode: difference;
+}
+
+.section .sec07 .sec07_3 {
+  width: 30%;
+  padding: 50px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: pre-line;
+}
+
+.section .sec07 .sec07_3 p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section .sec07 .sec07_3 div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec07 .sec07_3 div a {
+  font-family: "Grot10";
+  color: #c39d42;
+}
+
+.section .sec07 .sec07_3 div a:nth-of-type(1) {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d3d3d3;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec07 .sec07_3 div a:nth-of-type(1) span {
+  display: block;
+  -webkit-mask-image: url("../src/bike/brochure-logo.svg");
+          mask-image: url("../src/bike/brochure-logo.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}
+
+.section .sec08 {
+  width: 100%;
+  left: 441%;
+}
+
+.section .sec08 figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.section .sec08 figure video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section .sec08 figure figcaption {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  color: #fff;
+}
+
+.section .sec09 {
+  width: 110%;
+  left: 541%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section .sec09 > div {
+  height: 100%;
+  width: 33%;
+}
+
+.section .sec09 > div:nth-of-type(1) {
+  padding: 130px 80px;
+  position: relative;
+}
+
+.section .sec09 > div:nth-of-type(1) > p {
+  width: 100%;
+  font-size: 16px;
+}
+
+.section .sec09 > div:nth-of-type(1) > p:nth-of-type(2) {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.section .sec09 > div:nth-of-type(1) > p:nth-of-type(2) img {
+  height: auto;
+}
+
+.section .sec09 > div:nth-of-type(1) nav {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  top: 0;
+  right: 12%;
+  border: 1px solid #f00;
+  padding: 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section .sec09 > div:nth-of-type(1) nav button {
+  width: 100%;
+  height: 80px;
+  margin: 10% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: transparent;
+  border: none;
+}
+
+.section .sec09 > div:nth-of-type(1) nav button a {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.section .sec09 > div:nth-of-type(1) nav button a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.section .sec09 > div:nth-of-type(1) nav button a:hover {
+  width: 50px;
+  height: 50px;
+}
+
+.section .sec09 > div:nth-of-type(1) nav button p {
+  font-size: 16px;
+}
+
+.section .sec09 > div:nth-of-type(2) {
+  position: relative;
+  overflow: hidden;
+}
+
+.section .sec09 > div:nth-of-type(2) p {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section .sec09 > div:nth-of-type(2) p img {
+  height: 100%;
+}
+
+.section .sec09 > div:nth-of-type(2) p:nth-of-type(1) {
+  top: 0%;
+}
+
+.section .sec09 > div:nth-of-type(2) p:nth-of-type(2) {
+  top: 100%;
+}
+
+.section .sec09 > div:nth-of-type(3) {
+  padding: 0 50px;
+  overflow: hidden;
+}
+
+.section .sec09 > div:nth-of-type(3) div {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 20%;
+}
+
+.section .sec09 > div:nth-of-type(3) div p {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 80px;
+}
+
+.section .sec09 > div > p {
+  width: 60%;
+  font-family: "Grot10";
+  font-size: 20px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.section .sec09 > div > p:nth-of-type(2) {
+  width: 100%;
+}
+
+.section .sec10 {
+  width: 100%;
+  left: 651%;
+}
+
+.section .sec10 figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.section .sec10 figure > p {
+  width: 100%;
+  height: 100%;
+}
+
+.section .sec10 figure > p img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section .sec10 figure figcaption {
+  position: absolute;
+  bottom: 15%;
+  left: 12%;
+}
+
+.section .sec10 figure figcaption span {
+  color: #fff;
+  font-size: 150px;
+  line-height: 1;
+}
+
+.section .sec10 figure figcaption span:nth-of-type(1) {
+  position: absolute;
+  left: -10%;
+  bottom: 50%;
+  font-size: 100px;
+}
+
+.section .sec11 {
+  width: 100%;
+  left: 751%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .sec11 .sec11_1 {
+  width: 30%;
+  height: 100%;
+  padding: 50px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: pre-line;
+}
+
+.section .sec11 .sec11_1 p {
+  font-size: 5vh;
+  line-height: 1.1;
+}
+
+.section .sec11 .sec11_1 p:nth-of-type(2) {
+  font-family: "Grot10";
+  font-size: 16px;
+}
+
+.section .sec11 .sec11_2 {
+  width: 40%;
+  padding: 0 80px;
+}
+
+.section .sec11 .sec11_2 figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec11 .sec11_2 figure figcaption {
+  position: absolute;
+  left: -40px;
+  top: 15%;
+}
+
+.section .sec11 .sec11_2 figure figcaption p {
+  font-size: 15vh;
+  line-height: 1;
+}
+
+.section .sec11 .sec11_3 {
+  width: 30%;
+  padding: 50px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section .sec11 .sec11_3 p {
+  font-family: "Grot10";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section .sec11 .sec11_3 div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec11 .sec11_3 div a {
+  font-family: "Grot10";
+  font-size: 16px;
+  color: #000;
+}
+
+.section .sec12 {
+  width: 38%;
+  left: 851%;
+}
+
+.section .sec12 p {
+  width: 100%;
+  height: 100%;
+}
+
+.section .sec12 p img {
+  height: 100%;
+}
+
+.section .sec13 {
+  width: 47%;
+  left: 889%;
+}
+
+.section .sec13 figure {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.section .sec13 figure > p {
+  position: absolute;
+}
+
+.section .sec13 figure > p:nth-of-type(1) {
+  width: 20vh;
+  top: 0;
+  left: 15%;
+}
+
+.section .sec13 figure > p:nth-of-type(2) {
+  width: 30vh;
+  bottom: 5%;
+  right: 20%;
+}
+
+.section .sec13 figure figcaption {
+  position: absolute;
+  left: 20%;
+  font-size: 5vh;
+  line-height: 1.1;
+}
+
+.section .sec13 figure nav {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  top: 0;
+  right: 15%;
+  border: 1px solid #f00;
+  padding: 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section .sec13 figure nav button {
+  width: 100%;
+  height: 120px;
+  margin: 10% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: transparent;
+  border: none;
+}
+
+.section .sec13 figure nav button a {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.section .sec13 figure nav button a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.section .sec13 figure nav button a:hover {
+  width: 50px;
+  height: 50px;
+}
+
+.section .sec13 figure nav button p {
+  font-family: "Grot10";
+  font-size: 13px;
+}
+
+.section .sec14 {
+  width: 100%;
+  left: 936%;
+}
+
+.section .sec14 figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.section .sec14 figure > p {
+  width: 100%;
+  height: 100%;
+}
+
+.section .sec14 figure > p img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section .sec14 figure figcaption {
+  position: absolute;
+  bottom: 15%;
+  left: 12%;
+}
+
+.section .sec14 figure figcaption span {
+  color: #fff;
+  font-size: 150px;
+  line-height: 1;
+}
+
+.section .sec14 figure figcaption span:nth-of-type(1) {
+  position: absolute;
+  left: -8%;
+  bottom: 50%;
+  font-size: 100px;
+}
+
+.section .sec15 {
+  width: 100%;
+  left: 1036%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .sec15 .sec15_1 {
+  width: 30%;
+  padding: 50px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: pre-line;
+}
+
+.section .sec15 .sec15_1 p {
+  font-size: 5vh;
+  line-height: 1.1;
+}
+
+.section .sec15 .sec15_1 p:nth-of-type(2) {
+  font-family: "Grot10";
+  font-size: 16px;
+}
+
+.section .sec15 .sec15_2 {
+  width: 40%;
+  padding: 0 80px;
+}
+
+.section .sec15 .sec15_2 figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec15 .sec15_2 figure figcaption {
+  position: absolute;
+  left: -40px;
+  top: 15%;
+}
+
+.section .sec15 .sec15_2 figure figcaption p {
+  font-size: 15vh;
+  line-height: 1;
+  mix-blend-mode: overlay;
+}
+
+.section .sec15 .sec15_3 {
+  width: 30%;
+  padding: 50px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: pre-line;
+}
+
+.section .sec15 .sec15_3 p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section .sec15 .sec15_3 div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec15 .sec15_3 div a {
+  font-family: "Grot10";
+  color: #c39d42;
+}
+
+.section .sec15 .sec15_3 div a:nth-of-type(1) {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d3d3d3;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec15 .sec15_3 div a:nth-of-type(1) span {
+  display: block;
+  -webkit-mask-image: url("../src/bike/brochure-logo.svg");
+          mask-image: url("../src/bike/brochure-logo.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}
+
+.section .sec16 {
+  width: 130%;
+  left: 1136%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section .sec16 > div {
+  height: 100%;
+  width: 25%;
+}
+
+.section .sec16 > div:nth-of-type(1) {
+  position: relative;
+  overflow: hidden;
+}
+
+.section .sec16 > div:nth-of-type(1) p {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section .sec16 > div:nth-of-type(1) p img {
+  height: 100%;
+}
+
+.section .sec16 > div:nth-of-type(1) p:nth-of-type(1) {
+  top: 0%;
+}
+
+.section .sec16 > div:nth-of-type(1) p:nth-of-type(2) {
+  top: 100%;
+}
+
+.section .sec16 > div:nth-of-type(2) {
+  width: 45%;
+  padding: 100px 80px;
+}
+
+.section .sec16 > div:nth-of-type(2) ul {
+  width: 800px;
+  height: 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+.section .sec16 > div:nth-of-type(2) ul li {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.section .sec16 > div:nth-of-type(2) ul li p {
+  font-family: "Grot10";
+  font-size: 16px;
+}
+
+.section .sec16 > div:nth-of-type(2) ul li p:nth-of-type(2) {
+  font-size: 4vh;
+  font-family: "Domaine Sans Display";
+}
+
+.section .sec16 > div:nth-of-type(2) ul li:nth-of-type(1) {
+  left: 0;
+}
+
+.section .sec16 > div:nth-of-type(2) ul li:nth-of-type(2) {
+  left: 100%;
+}
+
+.section .sec16 > div:nth-of-type(2) ul li:nth-of-type(3) {
+  left: 200%;
+}
+
+.section .sec16 > div:nth-of-type(3) {
+  padding: 0 50px;
+  overflow: hidden;
+}
+
+.section .sec16 > div:nth-of-type(3) div {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 20%;
+}
+
+.section .sec16 > div:nth-of-type(3) div p {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 80px;
+}
+
+.section .sec16 > div p {
+  width: 60%;
+  font-family: "Grot10";
+  font-size: 20px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.section .sec16 > div p:nth-of-type(2) {
+  width: 100%;
+}
+
+.section .sec17 {
+  width: 100%;
+  left: 1281%;
+}
+
+.section .sec17 figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.section .sec17 figure > p {
+  width: 100%;
+  height: 100%;
+}
+
+.section .sec17 figure > p img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section .sec17 figure figcaption {
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+}
+
+.section .sec17 figure figcaption span {
+  color: #fff;
+  font-size: 150px;
+  line-height: 1;
+}
+
+.section .sec17 figure figcaption span:nth-of-type(1) {
+  position: absolute;
+  left: -8%;
+  bottom: 50%;
+  font-size: 100px;
+}
+
+.section .sec18 {
+  width: 100%;
+  left: 1381%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .sec18 .sec18_1 {
+  width: 30%;
+  padding: 50px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: pre-line;
+}
+
+.section .sec18 .sec18_1 p {
+  font-size: 5vh;
+  line-height: 1.1;
+}
+
+.section .sec18 .sec18_1 p:nth-of-type(2) {
+  font-family: "Grot10";
+  font-size: 16px;
+}
+
+.section .sec18 .sec18_2 {
+  width: 40%;
+  padding: 0 80px;
+}
+
+.section .sec18 .sec18_2 figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec18 .sec18_2 figure > p img {
+  mix-blend-mode: overlay;
+}
+
+.section .sec18 .sec18_2 figure figcaption {
+  position: absolute;
+  left: -40px;
+  top: 15%;
+}
+
+.section .sec18 .sec18_2 figure figcaption p {
+  font-size: 15vh;
+  line-height: 1;
+}
+
+.section .sec18 .sec18_3 {
+  width: 30%;
+  padding: 50px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: pre-line;
+}
+
+.section .sec18 .sec18_3 p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section .sec18 .sec18_3 div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec18 .sec18_3 div a {
+  font-family: "Grot10";
+  color: #c39d42;
+}
+
+.section .sec18 .sec18_3 div a:nth-of-type(1) {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d3d3d3;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec18 .sec18_3 div a:nth-of-type(1) span {
+  display: block;
+  -webkit-mask-image: url("../src/bike/brochure-logo.svg");
+          mask-image: url("../src/bike/brochure-logo.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}
+
+.section .sec19 {
+  width: 130%;
+  left: 1481%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section .sec19 > div {
+  height: 100%;
+}
+
+.section .sec19 > div:nth-of-type(1) {
+  position: relative;
+  overflow: hidden;
+  width: 30%;
+}
+
+.section .sec19 > div:nth-of-type(1) p {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section .sec19 > div:nth-of-type(1) p img {
+  height: 100%;
+}
+
+.section .sec19 > div:nth-of-type(1) p:nth-of-type(1) {
+  top: 0%;
+}
+
+.section .sec19 > div:nth-of-type(1) p:nth-of-type(2) {
+  top: 100%;
+}
+
+.section .sec19 > div:nth-of-type(2) {
+  padding: 100px 80px;
+  width: 40%;
+  height: 100%;
+}
+
+.section .sec19 > div:nth-of-type(2) p {
+  font-family: "Grot10";
+  font-size: 16px;
+}
+
+.section .sec19 > div:nth-of-type(2) p:nth-of-type(2) {
+  font-size: 4vh;
+  font-family: "Domaine Sans Display";
+}
+
+.section .sec19 > div:nth-of-type(3) {
+  padding: 0 50px;
+  overflow: hidden;
+  width: 30%;
+}
+
+.section .sec19 > div:nth-of-type(3) div {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 20%;
+}
+
+.section .sec19 > div:nth-of-type(3) div p {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 80px;
+}
+
+.section .sec20 {
+  width: 35%;
+  left: 1611%;
+  background: #000;
+}
+
+.section .sec20 figure {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .sec20 figure p {
+  width: 100%;
+}
+
+.section .sec20 figure figcaption {
+  position: absolute;
+  bottom: 15%;
+  color: #fff;
+}
+/*# sourceMappingURL=bike.css.map */
