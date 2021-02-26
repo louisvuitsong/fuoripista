@@ -1,7 +1,7 @@
 
 @font-face {
-    font-family: "Domaine Sans Display";
-    src: url('../fonts/DomaineSansDisplay-Light.woff2') format("woff2"), 
+    font-family: "domaine sans display";
+    src: url('../fonts/domainesansdisplay-light.woff2') format("woff2"), 
     url('../fonts/DomaineSansDisplay-Light.woff') format("woff");
     font-weight: 300;
     font-style: normal;
@@ -9,8 +9,8 @@
 }
 
 @font-face {
-    font-family: "Grot10";
-    src: url('../fonts/Grot10-Light.woff2') format("woff2"), 
+    font-family: "grot10";
+    src: url('../fonts/grot10-light.woff2') format("woff2"), 
     url('../fonts/Grot10-Light.woff') format("woff");
     font-weight: 300;
     font-style: normal;
@@ -18,8 +18,8 @@
 }
 
 @font-face {
-    font-family: "Grot10";
-    src: url('../fonts/Grot10-LightItalic.woff2') format("woff2"), 
+    font-family: "grot10";
+    src: url('../fonts/grot10-lightItalic.woff2') format("woff2"), 
     url('../fonts/Grot10-LightItalic.woff') format("woff");
     font-weight: 300;
     font-style: italic;
@@ -27,16 +27,16 @@
 }
 
 @font-face {
-    font-family: "Grot10";
-    src: url('../fonts/Grot10-Semibold.woff2') format("woff2"), url('../fonts/Grot10-Semibold.woff') format("woff");
+    font-family: "grot10";
+    src: url('../fonts/grot10-semibold.woff2') format("woff2"), url('../fonts/Grot10-Semibold.woff') format("woff");
     font-weight: 600;
     font-style: normal;
     font-display: swap
 }
 
 @font-face {
-    font-family: "Hijrnotes";
-    src: url('../fonts/Hijrnotes.woff2') format("woff2"), url('../fonts/Hijrnotes.woff') format("woff");
+    font-family: "hijrnotes";
+    src: url('../fonts/hijrnotes.woff2') format("woff2"), url('../fonts/Hijrnotes.woff') format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap

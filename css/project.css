@@ -251,7 +251,7 @@ body {
 .head-top .menu .menu-nav .nav-moreinfo nav a {
   width: 50%;
   font-size: 18px;
-  font-family: "Grot10";
+  font-family: "grot10";
 }
 
 .head-top .menu .menu-nav.active {
@@ -317,7 +317,7 @@ body {
 }
 
 .main-cover em {
-  font-family: "Hijrnotes";
+  font-family: "hijrnotes";
   font-size: 68px;
   color: #c39d42;
   line-height: 0.6;
@@ -360,7 +360,7 @@ body {
 }
 
 .main-cover article .project-copy p:nth-of-type(1) {
-  font-family: "Domaine Sans Display";
+  font-family: "domaine sans display";
   font-size: 2.6vw;
   line-height: 1.1;
 }
@@ -499,7 +499,7 @@ body {
 }
 
 .voice figure figcaption p {
-  font-family: "Grot10";
+  font-family: "grot10";
   font-size: 16px;
   text-align: center;
   color: #606060;
@@ -537,7 +537,7 @@ body {
 }
 
 .pathcopy p:nth-of-type(2) {
-  font-family: "Grot10";
+  font-family: "grot10";
   font-size: 16px;
   color: #606060;
   margin-left: 50%;
@@ -629,7 +629,7 @@ body {
 }
 
 .path article div:nth-of-type(1) figure figcaption p:nth-of-type(1) {
-  font-family: "Domaine Sans Display";
+  font-family: "domaine sans display";
   font-size: 48px;
 }
 
@@ -738,7 +738,7 @@ body {
 
 .newsletter .subscribe p {
   font-size: 48px;
-  font-family: "Domaine Sans Display";
+  font-family: "domaine sans display";
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

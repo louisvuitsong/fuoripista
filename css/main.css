@@ -258,7 +258,7 @@ body {
 .head-top .menu .menu-nav .nav-moreinfo nav a {
   width: 50%;
   font-size: 18px;
-  font-family: "Grot10";
+  font-family: "grot10";
 }
 
 .head-top .menu .menu-nav.active {
@@ -320,7 +320,7 @@ body {
 }
 
 .main-cover em {
-  font-family: "Hijrnotes";
+  font-family: "hijrnotes";
   font-size: 68px;
   color: #c39d42;
   line-height: 0.6;
@@ -627,7 +627,7 @@ body {
 
 .newsletter .subscribe p {
   font-size: 48px;
-  font-family: "Domaine Sans Display";
+  font-family: "domaine sans display";
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1030,7 +1030,7 @@ body {
   .head-top .menu .menu-nav .nav-moreinfo nav a {
     width: 50%;
     font-size: 16px;
-    font-family: "Grot10";
+    font-family: "grot10";
     margin: 10px auto;
   }
   .head-top .menu .menu-nav.active {
@@ -1118,7 +1118,7 @@ body {
     text-align: center;
   }
   .main-cover em {
-    font-family: "Hijrnotes";
+    font-family: "hijrnotes";
     font-size: 40px;
     color: #c39d42;
     line-height: 0.6;
@@ -1407,7 +1407,7 @@ body {
   }
   .newsletter .subscribe p {
     font-size: 48px;
-    font-family: "Domaine Sans Display";
+    font-family: "domaine sans display";
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

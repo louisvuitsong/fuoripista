@@ -162,7 +162,7 @@ header{}
                     a{
                         width:50%;
                         font-size: 18px;
-                        font-family: "Grot10";
+                        font-family: "grot10";
                     }
                 }
             }
@@ -211,7 +211,7 @@ main{}
         text-align: center;
     }
     em{
-        font-family: "Hijrnotes";
+        font-family: "hijrnotes";
         font-size: 68px;
         color:rgb(195,157,66);
         line-height: 0.6;
@@ -377,7 +377,7 @@ footer{}
         @include flex(space-between);
         p{
             font-size: 48px;
-            font-family: "Domaine Sans Display";
+            font-family: "domaine sans display";
             @include flex(space-between);
         }
         .btn-arrow{

@@ -239,7 +239,7 @@
 .head-top .menu .menu-nav .nav-moreinfo nav a {
   width: 50%;
   font-size: 18px;
-  font-family: "Grot10";
+  font-family: "grot10";
 }
 
 .head-top .menu .menu-nav.active {
@@ -361,7 +361,7 @@
 .section .sec02 > p:nth-of-type(3)::after {
   content: 'a piece of art';
   display: inline-block;
-  font-family: "Hijrnotes";
+  font-family: "hijrnotes";
   color: #c39d42;
   vertical-align: middle;
   font-size: 35px;
@@ -581,7 +581,7 @@
 }
 
 .section .sec07 .sec07_1 p:nth-of-type(3) {
-  font-family: "Grot10";
+  font-family: "grot10";
   font-size: 16px;
 }
 
@@ -657,7 +657,7 @@
 }
 
 .section .sec07 .sec07_3 div a {
-  font-family: "Grot10";
+  font-family: "grot10";
   color: #c39d42;
 }
 
@@ -888,7 +888,7 @@
 
 .section .sec09 > div > p {
   width: 60%;
-  font-family: "Grot10";
+  font-family: "grot10";
   font-size: 20px;
   line-height: 1.5;
   text-transform: uppercase;
@@ -970,7 +970,7 @@
 }
 
 .section .sec11 .sec11_1 p:nth-of-type(2) {
-  font-family: "Grot10";
+  font-family: "grot10";
   font-size: 16px;
 }
 
@@ -1025,7 +1025,7 @@
 }
 
 .section .sec11 .sec11_3 p {
-  font-family: "Grot10";
+  font-family: "grot10";
   font-size: 16px;
   line-height: 1.5;
 }
@@ -1044,7 +1044,7 @@
 }
 
 .section .sec11 .sec11_3 div a {
-  font-family: "Grot10";
+  font-family: "grot10";
   font-size: 16px;
   color: #000;
 }
@@ -1179,7 +1179,7 @@
 }
 
 .section .sec13 figure nav button p {
-  font-family: "Grot10";
+  font-family: "grot10";
   font-size: 13px;
 }
 
@@ -1254,7 +1254,7 @@
 }
 
 .section .sec15 .sec15_1 p:nth-of-type(2) {
-  font-family: "Grot10";
+  font-family: "grot10";
   font-size: 16px;
 }
 
@@ -1329,7 +1329,7 @@
 }
 
 .section .sec15 .sec15_3 div a {
-  font-family: "Grot10";
+  font-family: "grot10";
   color: #c39d42;
 }
 
@@ -1418,7 +1418,7 @@
 }
 
 .section .sec16 > div:nth-of-type(2) ul li p {
-  font-family: "Grot10";
+  font-family: "grot10";
   font-size: 16px;
 }
 
@@ -1471,7 +1471,7 @@
 
 .section .sec16 > div p {
   width: 60%;
-  font-family: "Grot10";
+  font-family: "grot10";
   font-size: 20px;
   line-height: 1.5;
   text-transform: uppercase;
@@ -1552,7 +1552,7 @@
 }
 
 .section .sec18 .sec18_1 p:nth-of-type(2) {
-  font-family: "Grot10";
+  font-family: "grot10";
   font-size: 16px;
 }
 
@@ -1630,7 +1630,7 @@
 }
 
 .section .sec18 .sec18_3 div a {
-  font-family: "Grot10";
+  font-family: "grot10";
   color: #c39d42;
 }
 
@@ -1705,13 +1705,13 @@
 }
 
 .section .sec19 > div:nth-of-type(2) p {
-  font-family: "Grot10";
+  font-family: "grot10";
   font-size: 16px;
 }
 
 .section .sec19 > div:nth-of-type(2) p:nth-of-type(2) {
   font-size: 4vh;
-  font-family: "Domaine Sans Display";
+  font-family: "domaine sans display";
 }
 
 .section .sec19 > div:nth-of-type(3) {
