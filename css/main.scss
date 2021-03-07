@@ -32,8 +32,7 @@
 
 
 *{color:#ddd;}
-
-body{background-color: #0d0d0d;}
+body{background-color: #0d0d0d; }
 header{}
 .head-top{
     z-index: 2;
@@ -205,6 +204,7 @@ header{}
 
 main{}
 .main-cover{
+    
     h2{
         font-size: 70px;
         font-weight: 300;
@@ -219,7 +219,7 @@ main{}
         margin:0 20px;
     }
     article{
-        figure{
+        > figure{
             width:100%; height:100vh;
             position:relative;
             overflow: hidden;
@@ -302,14 +302,26 @@ main{}
     }   
 }
 .slide{
+    width:100%;
     padding:150px 0;
     border-bottom: 1px solid #222;
+    overflow:hidden;
     .slide-list{
-        width:100%;
+        width:25%; height:100%;
+        margin:0 auto;
         @include flex(space-between);
         margin-bottom: 30px;
-        li{
-            width:25%;
+        li{ 
+            flex:0 0 auto;
+            width:100%;
+            &.active{
+                figure{
+                    figcaption{
+                        opacity: 1;
+                    }
+                    a{opacity:1;}
+                }
+            }
             figure{
                 @include flexcolumn();
                 text-align: center;
@@ -322,9 +334,12 @@ main{}
                     }
                 }
                 figcaption{
+                    transition:.5s;
+                    opacity: 0;
                     font-size: 35px;
                     width:100%;
                     @include flexcolumn();
+                    
                     &::before{
                         display: block;
                         content: "“";
@@ -332,6 +347,7 @@ main{}
                     }
                 }
                 a{
+                    opacity:0;
                     display: block;
                     border:1px solid #fff;
                     border-radius:5px;

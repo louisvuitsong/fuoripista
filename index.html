@@ -6,70 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fuoripista</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://raw.github.com/furf/jquery-ui-touch-punch/master/jquery.ui.touch-punch.js"></script>
     <script src="common.js"></script>
-    <script src="script/main.js"></script>
+    <script src="js/main.js"></script>
     <link href="css/main.css" rel="stylesheet">
+    
 </head>
 <body>
 
-<header>
-  <!--   <div class="head-top">
-        <a href="index.html">Fuoripista</a>
-        <div class="menu">
-            <button class="menu-btn">
-                <p>Menu</p>
-                <div class="menu-trigger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </button>
-            <div class="menu-nav">
-                <nav class="nav-product">
-                    <ul>
-                        <li>
-                            <p><img src="src/main/bike-nav.jpg" alt=""></p>
-                            <div class="nav-btn"><a href=""></a></div>
-                            <a href="bike.html">BIKE</a>
-                        </li>
-                        <li>
-                            <p><img src="src/main/tuo-nav.jpg" alt=""></p>
-                            <div class="nav-btn"><a href=""></a></div>
-                            <a href="">TUO</a>
-                        </li>
-                        <li>
-                            <p><img src="src/main/mia-nav.jpg" alt=""></p>
-                            <div class="nav-btn"><a href=""></a></div>
-                            <a href="">MIA</a>
-                        </li>
-                    </ul>
-                </nav>
-                <nav class="nav-moreinfo">
-                    <a href="project.html">Project</a>
-                    <a href="">Stories</a>
-                    <a href="">Philosophy</a>
-                    <nav>
-                        <a href="">NEWS</a>
-                        <a href="">PRESS</a>
-                        <a href="">FAQ</a>
-                        <a href="">DOWNLOAD</a>
-                    </nav>
-                </nav>       
-            </div>
-        </div>
-    </div>
-    <div class="head-bottom">
-        <div class="indicater">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <button class="info">
-            <p>i</p>
-        </button>
-    </div> -->
-</header>
+<header></header>
 <!-- main -->
 <main>
 <div class="main-cover">
@@ -134,10 +80,12 @@
             </figcaption>
         </figure>
     </article>
+
+
 </div>
 <article class="slide">
     <ul class="slide-list">
-        <li>
+        <li class='active'>
             <figure>
                 <p><img src="src/main/logo-hyperbeast.png"></p>
                 <figcaption>
@@ -181,62 +129,7 @@
         <span></span>
     </div>
 </article>
-
-
 </main>
-<footer>
-<!-- 
-<article class="newsletter">
-    <div class="subscribe">
-        <p>
-            SUBSCRIBE TO<br>
-            THE NEWSLETTER
-        </p>
-        <div class="btn-arrow">
-            <span></span>
-        </div>
-    </div>
-    <form>
-        <input type="email" placeholder="Your email">
-    </form>
-    <input class="policy" id="policy" type="checkbox">
-    <label for="policy">
-        I accept the site's<a href="#"><u>PRIVACY POLICY</u></a>
-    </label>
-</article>
-
-<div class="foot-nav">
-    <nav class="more">
-        <a href="#">NEWS</a>
-        <a href="#">PRESS</a>
-        <a href="#">FAQ</a>
-        <a href="#">DOWNLOAD</a>
-    </nav>
-    <nav class="sns">
-        <a href="#"></a>
-        <a href="#"></a>
-    </nav>
-</div>
-
-<div class="copy">
-    <p><span>©</span>ELITE SRL | REG.IMPR.PD/C.F./P.I. INTRASTAT IT 04342350289-<a href="#"><u>PRIVACY POLICY</u></a></p>
-    <div>
-        <a href="#"></a>
-    </div>
-    
-</div>
-
- -->
-</footer>
-<script>
-    var toggleBtn = document.querySelector('.menu-btn');
-    var toggleMenu = document.querySelector('.menu-nav');
-    var toggleTrigger = document.querySelector('.menu-trigger');
-
-    toggleBtn.addEventListener('click',function(){
-        toggleMenu.classList.toggle('active');
-        toggleTrigger.classList.toggle('active');
-    });
-</script>
+<footer></footer>
 </body>
 </html>

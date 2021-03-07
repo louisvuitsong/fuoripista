@@ -14,10 +14,13 @@ $(function(){
         var toggleTrigger = document.querySelector('.menu-trigger');
 
         toggleBtn.addEventListener('click',function(){
-        toggleMenu.classList.toggle('active');
-        toggleTrigger.classList.toggle('active');
-    });
+            toggleMenu.classList.toggle('active');
+            toggleTrigger.classList.toggle('active');
+        });
     }
 
+
+
+    
     
 });
