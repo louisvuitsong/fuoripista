@@ -1,6 +1,6 @@
 $(function(){
 
-/* var delta, loop, num=0, pos=[];
+var delta, loop, num=0, pos=[];
 
 $('.main-cover article').each(function(i){
     pos.push($('.main-cover article').eq(i).offset().top);
@@ -12,14 +12,14 @@ $('.main-cover').on('mousewheel DOMMouseScroll',function(e){
     loop = setTimeout(function(){
         if(delta < 0){
             //down
-           if(num != 4) num++;
+           if(num != 5) num++;
         }else{
             //up
            if(num != 0) num--;
         }
         $('main .main-cover').animate({marginTop:-pos[num]});
     },200);
-}); */
+});
 
     var mPos = {start:0, end:0};
     var slideNum = 0;
